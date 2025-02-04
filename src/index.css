@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .section {
+    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm rounded-full;
+  }
+  .btn-lg {
+    @apply h-[56px] px-8 text-base rounded-full;
+  }
+  .btn-link {
+    @apply text-base;
+  }
+  .text-gradient {
+    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#3b82f6] to-[#60a5fa] font-bold hover:from-[#60a5fa] hover:to-[#60a5fa];
+  }
+}
+
+body{
+  background-color: black;
+}
+
+.btn {
+  background: linear-gradient(
+    90deg,
+    #3b82f6 0%,
+    #60a5fa 100%
+    );
+}
+
+.gradient,
+.active {
+ background-color: purple;
+}
+
+.active {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 100%;
+}
+
+.cursor-pointer:hover {
+  color: purple; 
+}
