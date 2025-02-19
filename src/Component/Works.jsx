@@ -3,6 +3,7 @@ import ecom from "../assets/ecommer.jpg"
 import Bookit from "../assets/bookit.jpg"
 import Wea from "../assets/wea.png"
 import Quiz from "../assets/quiz.jpg"
+import Con from "../assets/4Connect.png"
 
 const works = [
   {
@@ -25,6 +26,13 @@ const works = [
     imageUrl: Wea,
     liveUrl: 'https://weathersm.vercel.app/',
     repoUrl: 'https://github.com/DvSamM/Weather',
+  },
+  {
+    title: 'Connect Four',
+    description: 'Connect Four is a strategic two-player game that challenges opponents to outsmart each other on a vertical grid. Each player takes turns dropping their colored discs (typically red and yellow) into one of the seven columns, and the disc falls to the lowest available slot in that column. The game combines elements of chance and strategy, making it suitable for players of all ages.',
+    imageUrl: Con,
+    liveUrl: 'https://con4.vercel.app/',
+    repoUrl: 'https://github.com/DvSamM/Con4',
   },
   {
     title: 'Quiz App',
